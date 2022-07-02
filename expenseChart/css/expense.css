@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&family=Roboto:ital,wght@0,100;1,100&display=swap');
+* {
+    font-family: "SF-Pro-Display-Regular";
+    family: DM-Sans
+}
+
+
+
+body {
+    background-color: #F5EEDF;
+}
+.head{
+    background-color: #DD6E57;
+    border-radius: 22px;
+}
+img.card-img-top {
+    position: relative;
+    height: 50px;
+    width: 57px;
+    top: -20px;
+    left: 583px;
+}
+h6.card-subtitle.mb-2.text-white {
+    position: absolute;
+    font-size: 35px;
+}
+
+.card.mainCard {
+    position: relative;
+    top: 23px;
+    border-radius: 22px;
+}
+.card {
+    border-radius: 24px;
+    outline: none;
+    overflow: hidden;
+    width: 43rem;
+    margin: 0 auto;
+}
+
+h2,h5,  .card-header {
+    font-weight: bold;
+}
+.card-header, .card-footer {
+    background-color: unset;
+    border-bottom: none;
+}
+.mainCard .card-header{
+    font-size: 30px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Chart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/expense.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card text-white" >
+            <div class="card-body head">
+              <h5 class="card-title">My balance</h5>
+              <h6 class="card-subtitle mb-2 text-white">$921.48</h6>  
+              <img class="card-img-top" src="/images/logo.svg" alt="Card image cap">            
+            </div>
+          </div>
+        <div class="card mainCard">
+            <div class="card-header">Spending - Last 7 days</div>
+            <div class="card-body">
+                <canvas id="expenseChart"></canvas>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-md-6 text-left ">
+                        <label>Total this month</label>
+                        <h2>$478.33</h2>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <h5>+2.4%</h5>
+                        <label>from last month</label>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/javascript/expense.js"></script>
+</body>
+</html>
